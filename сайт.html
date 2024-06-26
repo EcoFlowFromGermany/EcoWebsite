@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій Вебсайт</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            backdrop-filter: blur(8px);
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .contacts {
+            margin-top: 40px;
+        }
+
+        .contacts a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        .contacts a:hover {
+            color: #00aced;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ласкаво просимо!</h1>
+        <p>Дякуємо, що завітали на наш сайт. Залишайтеся на зв'язку!</p>
+        <div class="contacts">
+            <a href="tel:+380123456789">Телефон: +380 123 456 789</a>
+            <a href="https://t.me/yourtelegram" target="_blank">Телеграм: @yourtelegram</a>
+            <a href="mailto:yourmail@example.com">Електронна пошта: yourmail@example.com</a>
+        </div>
+    </div>
+</body>
+</html>
